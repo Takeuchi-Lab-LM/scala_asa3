@@ -1,0 +1,1736 @@
+---
+dict:
+- entry: しち難しい
+  phrase:
+  - 小難しい
+  semantic: 状態変化なし（状態）-（人間生活・社会に関する）対象の性質-機能・人の使用に関する性質（物）-難易-難しい
+  patterns:
+  - cases:
+    - base: し
+    - read: シ
+      pos: 動詞,自立
+  - cases:
+    - base: ち
+    - read: チ
+      pos: 動詞,自立
+  - cases:
+    - base: 難しい
+    - read: ムズカシイ
+      pos: 形容詞,自立
+
+- entry: 捻くり回す
+  phrase:
+  - 弄る
+  semantic: 状態変化なし（活動）-対人・対物的動作-接触-打つ・たたく
+  patterns:
+  - cases:
+    - base: 捻
+    - read: ヒネ
+      pos: 動詞,自立
+  - cases:
+    - base: くり
+    - read: クリ
+      pos: 名詞,一般
+  - cases:
+    - base: 回す
+    - read: マワス
+      pos: 動詞,自立
+
+- entry: 恥じらいの色を見せる
+  phrase:
+  - はにかむ
+  semantic: 状態変化あり-主体の変化-心理的変化-感情変化-恥
+  patterns:
+  - cases:
+    - base: 恥じらい
+    - read: ハジライ
+      pos: 動詞,自立
+  - cases:
+    - base: の
+    - read: ノ
+      pos: 助詞,連体化
+  - cases:
+    - base: 色
+    - read: イロ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 見せる
+    - read: ミセル
+      pos: 動詞,自立
+
+- entry: 焼き餅を焼く
+  phrase:
+  - 妬ける
+  semantic: 状態変化あり-主体の変化-心理的変化-感情変化-嫌悪
+  patterns:
+  - cases:
+    - base: 焼き餅
+    - read: ヤキモチ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 焼く
+    - read: ヤク
+      pos: 動詞,自立
+
+- entry: 甚助を起こす
+  phrase:
+  - 妬ける
+  semantic: 状態変化あり-主体の変化-心理的変化-感情変化-嫌悪
+  patterns:
+  - cases:
+    - base: 甚助
+    - read: ジンスケ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 起こす
+    - read: オコス
+      pos: 動詞,自立
+
+- entry: 修羅を燃やす
+  phrase:
+  - 妬ける
+  semantic: 状態変化あり-主体の変化-心理的変化-感情変化-嫌悪
+  patterns:
+  - cases:
+    - base: 修羅
+    - read: シュラ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 燃やす
+    - read: モヤス
+      pos: 動詞,自立
+
+- entry: 力を入れる
+  phrase:
+  - 努める
+  semantic: 状態変化なし（活動）-実行-実行-努力
+  patterns:
+  - cases:
+    - base: 力
+    - read: チカラ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 入れる
+    - read: イレル
+      pos: 動詞,自立
+
+- entry: 命を懸ける
+  phrase:
+  - 努める
+  semantic: 状態変化なし（活動）-実行-実行-努力
+  patterns:
+  - cases:
+    - base: 命
+    - read: イノチ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 懸ける
+    - read: カケル
+      pos: 動詞,自立
+
+- entry: 身を砕く
+  phrase:
+  - 努める
+  semantic: 状態変化なし（活動）-実行-実行-努力
+  patterns:
+  - cases:
+    - base: 身
+    - read: ミ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 砕く
+    - read: クダク
+      pos: 動詞,自立
+
+- entry: 力瘤を入れる
+  phrase:
+  - 努める
+  semantic: 状態変化なし（活動）-実行-実行-努力
+  patterns:
+  - cases:
+    - base: 力瘤
+    - read: チカラコブ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 入れる
+    - read: イレル
+      pos: 動詞,自立
+
+- entry: 骨を折る
+  phrase:
+  - 努める
+  semantic: 状態変化なし（活動）-実行-実行-努力
+  patterns:
+  - cases:
+    - base: 骨
+    - read: ホネ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 折る
+    - read: オル
+      pos: 動詞,自立
+
+- entry: 心を砕く
+  phrase:
+  - 努める
+  semantic: 状態変化なし（活動）-実行-実行-努力
+  patterns:
+  - cases:
+    - base: 心
+    - read: ココロ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 砕く
+    - read: クダク
+      pos: 動詞,自立
+
+- entry: 肝胆を砕く
+  phrase:
+  - 努める
+  semantic: 状態変化なし（活動）-実行-実行-努力
+  patterns:
+  - cases:
+    - base: 肝胆
+    - read: カンタン
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 砕く
+    - read: クダク
+      pos: 動詞,自立
+
+- entry: 身を粉にする
+  phrase:
+  - 努める
+  semantic: 状態変化なし（活動）-実行-実行-努力
+  patterns:
+  - cases:
+    - base: 身
+    - read: ミ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 粉
+    - read: コナ
+      pos: 名詞,一般
+  - cases:
+    - base: に
+    - read: ニ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: する
+    - read: スル
+      pos: 動詞,自立
+
+- entry: 息を吹き返す
+  phrase:
+  - 蘇る
+  semantic: 状態変化あり-回復-回復
+  patterns:
+  - cases:
+    - base: 息
+    - read: イキ
+      pos: 名詞,サ変接続
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 吹き返す
+    - read: フキカエス
+      pos: 動詞,自立
+
+- entry: 首を切る
+  phrase:
+  - 免じる
+  semantic: 状態変化あり-主体の変化-社会的状態の変化-所属-引退
+  patterns:
+  - cases:
+    - base: 首
+    - read: クビ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 切る
+    - read: キル
+      pos: 動詞,自立
+
+- entry: 首にする
+  phrase:
+  - 免じる
+  semantic: 状態変化あり-主体の変化-社会的状態の変化-所属-引退
+  patterns:
+  - cases:
+    - base: 首
+    - read: クビ
+      pos: 名詞,一般
+  - cases:
+    - base: に
+    - read: ニ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: する
+    - read: スル
+      pos: 動詞,自立
+
+- entry: 暇を出す
+  phrase:
+  - 免じる
+  semantic: 状態変化あり-主体の変化-社会的状態の変化-所属-引退
+  patterns:
+  - cases:
+    - base: 暇
+    - read: ヒマ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 出す
+    - read: ダス
+      pos: 動詞,自立
+
+- entry: 息を引き取る
+  phrase:
+  - 逝く
+  semantic: 状態変化あり-生成・消滅-消滅（物理）-死滅
+  patterns:
+  - cases:
+    - base: 息
+    - read: イキ
+      pos: 名詞,サ変接続
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 引き取る
+    - read: ヒキトル
+      pos: 動詞,自立
+
+- entry: 世を去る
+  phrase:
+  - 逝く
+  semantic: 状態変化あり-生成・消滅-消滅（物理）-死滅
+  patterns:
+  - cases:
+    - base: 世
+    - read: ヨ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 去る
+    - read: サル
+      pos: 動詞,自立
+
+- entry: 骨に成る
+  phrase:
+  - 逝く
+  semantic: 状態変化あり-生成・消滅-消滅（物理）-死滅
+  patterns:
+  - cases:
+    - base: 骨
+    - read: ホネ
+      pos: 名詞,一般
+  - cases:
+    - base: に
+    - read: ニ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 成る
+    - read: ナル
+      pos: 動詞,自立
+
+- entry: 土に成る
+  phrase:
+  - 逝く
+  semantic: 状態変化あり-生成・消滅-消滅（物理）-死滅
+  patterns:
+  - cases:
+    - base: 土
+    - read: ド
+      pos: 名詞,一般
+  - cases:
+    - base: に
+    - read: ニ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 成る
+    - read: ナル
+      pos: 動詞,自立
+
+- entry: 往生を遂げる
+  phrase:
+  - 逝く
+  semantic: 状態変化あり-生成・消滅-消滅（物理）-死滅
+  patterns:
+  - cases:
+    - base: 往生
+    - read: オウジョウ
+      pos: 名詞,サ変接続
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 遂げる
+    - read: トゲル
+      pos: 動詞,自立
+
+- entry: 大往生を遂げる
+  phrase:
+  - 逝く
+  semantic: 状態変化あり-生成・消滅-消滅（物理）-死滅
+  patterns:
+  - cases:
+    - base: 大
+    - read: ダイ
+      pos: 接頭詞,名詞接続
+  - cases:
+    - base: 往生
+    - read: オウジョウ
+      pos: 名詞,サ変接続
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 遂げる
+    - read: トゲル
+      pos: 動詞,自立
+
+- entry: 最期を遂げる
+  phrase:
+  - 逝く
+  semantic: 状態変化あり-生成・消滅-消滅（物理）-死滅
+  patterns:
+  - cases:
+    - base: 最期
+    - read: サイゴ
+      pos: 名詞,副詞可能
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 遂げる
+    - read: トゲル
+      pos: 動詞,自立
+
+- entry: 不帰の客となる
+  phrase:
+  - 逝く
+  semantic: 状態変化あり-生成・消滅-消滅（物理）-死滅
+  patterns:
+  - cases:
+    - base: 不帰
+    - read: フキ
+      pos: 名詞,一般
+  - cases:
+    - base: の
+    - read: ノ
+      pos: 助詞,連体化
+  - cases:
+    - base: 客
+    - read: キャク
+      pos: 名詞,一般
+  - cases:
+    - base: と
+    - read: ト
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: なる
+    - read: ナル
+      pos: 動詞,自立
+
+- entry: 黄泉の客となる
+  phrase:
+  - 逝く
+  semantic: 状態変化あり-生成・消滅-消滅（物理）-死滅
+  patterns:
+  - cases:
+    - base: 黄泉
+    - read: ヨミ
+      pos: 名詞,一般
+  - cases:
+    - base: の
+    - read: ノ
+      pos: 助詞,連体化
+  - cases:
+    - base: 客
+    - read: キャク
+      pos: 名詞,一般
+  - cases:
+    - base: と
+    - read: ト
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: なる
+    - read: ナル
+      pos: 動詞,自立
+
+- entry: 鬼籍に入る
+  phrase:
+  - 逝く
+  semantic: 状態変化あり-生成・消滅-消滅（物理）-死滅
+  patterns:
+  - cases:
+    - base: 鬼籍
+    - read: キセキ
+      pos: 名詞,一般
+  - cases:
+    - base: に
+    - read: ニ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 入る
+    - read: ハイル
+      pos: 動詞,自立
+
+- entry: 亡き数に入る
+  phrase:
+  - 逝く
+  semantic: 状態変化あり-生成・消滅-消滅（物理）-死滅
+  patterns:
+  - cases:
+    - base: 亡き
+    - read: ナキ
+      pos: 連体詞
+  - cases:
+    - base: 数
+    - read: カズ
+      pos: 名詞,一般
+  - cases:
+    - base: に
+    - read: ニ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 入る
+    - read: ハイル
+      pos: 動詞,自立
+
+- entry: 帰らぬ旅に出る
+  phrase:
+  - 逝く
+  semantic: 状態変化あり-生成・消滅-消滅（物理）-死滅
+  patterns:
+  - cases:
+    - base: 帰ら
+    - read: カエラ
+      pos: 動詞,自立
+  - cases:
+    - base: ぬ
+    - read: ヌ
+      pos: 助動詞
+  - cases:
+    - base: 旅
+    - read: タビ
+      pos: 名詞,サ変接続
+  - cases:
+    - base: に
+    - read: ニ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 出る
+    - read: デル
+      pos: 動詞,自立
+
+- entry: 死出の旅に出る
+  phrase:
+  - 逝く
+  semantic: 状態変化あり-生成・消滅-消滅（物理）-死滅
+  patterns:
+  - cases:
+    - base: 死出の旅
+    - read: シデノタビ
+      pos: 名詞,一般
+  - cases:
+    - base: に
+    - read: ニ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 出る
+    - read: デル
+      pos: 動詞,自立
+
+- entry: 入れ違いになる
+  phrase:
+  - 入れ違う
+  semantic: 状態変化なし（活動）-対人・対物的動作-接触-擦れ違い
+  patterns:
+  - cases:
+    - base: 入れ違い
+    - read: イレチガイ
+      pos: 動詞,自立
+  - cases:
+    - base: に
+    - read: ニ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: なる
+    - read: ナル
+      pos: 動詞,自立
+
+- entry: 不確実だ
+  phrase:
+  - 危ない
+  semantic: 状態変化なし（状態）-（人の判断・認識に関わる）対象の状態-可能性-可能性が（高い／低い）-低い
+  patterns:
+  - cases:
+    - base: 不
+    - read: フ
+      pos: 接頭詞,名詞接続
+  - cases:
+    - base: 確実
+    - read: カクジツ
+      pos: 名詞,形容動詞語幹
+  - cases:
+    - base: だ
+    - read: ダ
+      pos: 助動詞
+
+- entry: 不合格になる
+  phrase:
+  - 滑る
+  semantic: 状態変化あり-主体の変化-（人との関わりに基づく）社会的変化-合格／失格-失格
+  patterns:
+  - cases:
+    - base: 不
+    - read: フ
+      pos: 接頭詞,名詞接続
+  - cases:
+    - base: 合格
+    - read: ゴウカク
+      pos: 名詞,サ変接続
+  - cases:
+    - base: に
+    - read: ニ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: なる
+    - read: ナル
+      pos: 動詞,自立
+
+- entry: 凄味を利かす
+  phrase:
+  - 脅かす
+  semantic: 状態変化あり-主体の変化-心理的変化-感情変化の引き起こし-恐怖
+  patterns:
+  - cases:
+    - base: 凄味
+    - read: スゴミ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 利かす
+    - read: キカス
+      pos: 動詞,自立
+
+- entry: 脅しをかける
+  phrase:
+  - 脅かす
+  semantic: 状態変化あり-主体の変化-心理的変化-感情変化の引き起こし-恐怖
+  patterns:
+  - cases:
+    - base: 脅し
+    - read: オドシ
+      pos: 動詞,自立
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: かける
+    - read: カケル
+      pos: 動詞,自立
+
+- entry: 憎しみを持つ
+  phrase:
+  - 憎たらしい
+  semantic: 状態変化なし（状態）-主体の性質-心理的状態-好き・嫌い
+  patterns:
+  - cases:
+    - base: 憎しみ
+    - read: ニクシミ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 持つ
+    - read: モツ
+      pos: 動詞,自立
+
+- entry: がっちりしている
+  phrase:
+  - 塩っぱい
+  semantic: 状態変化なし（状態）-主体の性質-性質（人）-性格・特性
+  patterns:
+  - cases:
+    - base: がっちり
+    - read: ガッチリ
+      pos: 副詞,一般
+  - cases:
+    - base: し
+    - read: シ
+      pos: 動詞,自立
+  - cases:
+    - base: て
+    - read: テ
+      pos: 助詞,接続助詞
+  - cases:
+    - base: いる
+    - read: イル
+      pos: 動詞,非自立
+
+- entry: けちけちしている
+  phrase:
+  - 塩っぱい
+  semantic: 状態変化なし（状態）-主体の性質-性質（人）-性格・特性
+  patterns:
+  - cases:
+    - base: けちけち
+    - read: ケチケチ
+      pos: 副詞,一般
+  - cases:
+    - base: し
+    - read: シ
+      pos: 動詞,自立
+  - cases:
+    - base: て
+    - read: テ
+      pos: 助詞,接続助詞
+  - cases:
+    - base: いる
+    - read: イル
+      pos: 動詞,非自立
+
+- entry: 打算的だ
+  phrase:
+  - 塩っぱい
+  semantic: 状態変化なし（状態）-主体の性質-性質（人）-性格・特性
+  patterns:
+  - cases:
+    - base: 打算
+    - read: ダサン
+      pos: 名詞,サ変接続
+  - cases:
+    - base: 的
+    - read: テキ
+      pos: 名詞,接尾,形容動詞語幹
+  - cases:
+    - base: だ
+    - read: ダ
+      pos: 助動詞
+
+- entry: 余所余所しい
+  phrase:
+  - 水臭い
+  semantic: 状態変化なし（活動）-動作の付帯状況-動作の様態・態度・表情-人に対する態度-他人行儀
+  patterns:
+  - cases:
+    - base: 余所
+    - read: ヨソ
+      pos: 名詞,一般
+  - cases:
+    - base: 余所
+    - read: ヨソ
+      pos: 名詞,一般
+  - cases:
+    - base: しい
+    - read: シイ
+      pos: 動詞,自立
+
+- entry: 道連れにする
+  phrase:
+  - 引き連れる
+  semantic: 状態変化なし（活動）-共同動作-同行-同行
+  patterns:
+  - cases:
+    - base: 道連れ
+    - read: ミチヅレ
+      pos: 名詞,一般
+  - cases:
+    - base: に
+    - read: ニ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: する
+    - read: スル
+      pos: 動詞,自立
+
+- entry: 微温的だ
+  phrase:
+  - 手緩い
+  semantic: 状態変化なし（状態）-（人間生活・社会に関する）対象の性質-人の行為に対する評価・基準-厳しい／甘い-甘い
+  patterns:
+  - cases:
+    - base: 微温
+    - read: ビオン
+      pos: 名詞,一般
+  - cases:
+    - base: 的
+    - read: テキ
+      pos: 名詞,接尾,形容動詞語幹
+  - cases:
+    - base: だ
+    - read: ダ
+      pos: 助動詞
+
+- entry: 情け知らずだ
+  phrase:
+  - 心無い
+  semantic: 状態変化なし（状態）-主体の性質-性質（人）-性格・特性
+  patterns:
+  - cases:
+    - base: 情け
+    - read: ナサケ
+      pos: 名詞,一般
+  - cases:
+    - base: 知らず
+    - read: シラズ
+      pos: 名詞,接尾,一般
+  - cases:
+    - base: だ
+    - read: ダ
+      pos: 助動詞
+
+- entry: 不合格になる
+  phrase:
+  - 落ちる
+  semantic: 状態変化あり-主体の変化-（人との関わりに基づく）社会的変化-合格／失格-失格
+  patterns:
+  - cases:
+    - base: 不
+    - read: フ
+      pos: 接頭詞,名詞接続
+  - cases:
+    - base: 合格
+    - read: ゴウカク
+      pos: 名詞,サ変接続
+  - cases:
+    - base: に
+    - read: ニ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: なる
+    - read: ナル
+      pos: 動詞,自立
+
+- entry: 気を配る
+  phrase:
+  - 構う
+  semantic: 状態変化なし（活動）-情報・解決策を得るための動作-思考動作-心配・気遣い
+  patterns:
+  - cases:
+    - base: 気
+    - read: キ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 配る
+    - read: クバル
+      pos: 動詞,自立
+
+- entry: 塩気が多い
+  phrase:
+  - 塩っぱい
+  semantic: 状態変化なし（状態）-（人間生活・社会に関する）対象の性質-人の身体・感情・知覚に影響する性質（物）-知覚-味
+  patterns:
+  - cases:
+    - base: 塩気
+    - read: シオケ
+      pos: 名詞,一般
+  - cases:
+    - base: が
+    - read: ガ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 多い
+    - read: オオイ
+      pos: 形容詞,自立
+
+- entry: 巡りをする
+  phrase:
+  - 回る
+  semantic: 状態変化なし（活動）-移動動作-移動動作（物理）-循環
+  patterns:
+  - cases:
+    - base: 巡り
+    - read: メグリ
+      pos: 名詞,接尾,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: する
+    - read: スル
+      pos: 動詞,自立
+
+- entry: 捻くり回す
+  phrase:
+  - 弄る
+  semantic: 状態変化なし（活動）-対人・対物的動作-接触-打つ・たたく
+  patterns:
+  - cases:
+    - base: 捻
+    - read: ヒネ
+      pos: 動詞,自立
+  - cases:
+    - base: くり
+    - read: クリ
+      pos: 名詞,一般
+  - cases:
+    - base: 回す
+    - read: マワス
+      pos: 動詞,自立
+
+- entry: 嚢中の物を探るようなものだ
+  phrase:
+  - ちょろい
+  semantic: 状態変化なし（状態）-（人間生活・社会に関する）対象の性質-機能・人の使用に関する性質（物）-難易-易しい
+  patterns:
+  - cases:
+    - base: 嚢中
+    - read: ノウチュウ
+      pos: 名詞,一般
+  - cases:
+    - base: の
+    - read: ノ
+      pos: 助詞,連体化
+  - cases:
+    - base: 物
+    - read: モノ
+      pos: 名詞,非自立,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 探る
+    - read: サグル
+      pos: 動詞,自立
+  - cases:
+    - base: よう
+    - read: ヨウ
+      pos: 名詞,非自立,助動詞語幹
+  - cases:
+    - base: な
+    - read: ナ
+      pos: 助動詞
+  - cases:
+    - base: もの
+    - read: モノ
+      pos: 名詞,非自立,一般
+  - cases:
+    - base: だ
+    - read: ダ
+      pos: 助動詞
+
+- entry: お安いご用だ
+  phrase:
+  - ちょろい
+  semantic: 状態変化なし（状態）-（人間生活・社会に関する）対象の性質-機能・人の使用に関する性質（物）-難易-易しい
+  patterns:
+  - cases:
+    - base: お
+    - read: オ
+      pos: 接頭詞,名詞接続
+  - cases:
+    - base: 安い
+    - read: ヤスイ
+      pos: 形容詞,自立
+  - cases:
+    - base: ご用
+    - read: ゴヨウ
+      pos: 名詞,サ変接続
+  - cases:
+    - base: だ
+    - read: ダ
+      pos: 助動詞
+
+- entry: 苦も無くできる
+  phrase:
+  - ちょろい
+  semantic: 状態変化なし（状態）-（人間生活・社会に関する）対象の性質-機能・人の使用に関する性質（物）-難易-易しい
+  patterns:
+  - cases:
+    - base: 苦
+    - read: ク
+      pos: 名詞,一般
+  - cases:
+    - base: も
+    - read: モ
+      pos: 助詞,係助詞
+  - cases:
+    - base: 無く
+    - read: ナク
+      pos: 形容詞,自立
+  - cases:
+    - base: できる
+    - read: デキル
+      pos: 動詞,自立
+
+- entry: 楽楽とできる
+  phrase:
+  - ちょろい
+  semantic: 状態変化なし（状態）-（人間生活・社会に関する）対象の性質-機能・人の使用に関する性質（物）-難易-易しい
+  patterns:
+  - cases:
+    - base: 楽楽
+    - read: ラクラク
+      pos: 副詞,一般
+  - cases:
+    - base: と
+    - read: ト
+      pos: 助詞,副詞化
+  - cases:
+    - base: できる
+    - read: デキル
+      pos: 動詞,自立
+
+- entry: 易易たるものだ
+  phrase:
+  - ちょろい
+  semantic: 状態変化なし（状態）-（人間生活・社会に関する）対象の性質-機能・人の使用に関する性質（物）-難易-易しい
+  patterns:
+  - cases:
+    - base: 易易
+    - read: イイ
+      pos: 名詞,一般
+  - cases:
+    - base: たる
+    - read: タル
+      pos: 助動詞
+  - cases:
+    - base: もの
+    - read: モノ
+      pos: 名詞,非自立,一般
+  - cases:
+    - base: だ
+    - read: ダ
+      pos: 助動詞
+
+- entry: 味噌を擂る
+  phrase:
+  - 媚びる
+  semantic: 状態変化なし（活動）-他者に動作を促す動作-誘惑・強制-勧誘・誘惑-誘惑
+  patterns:
+  - cases:
+    - base: 味噌
+    - read: ミソ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 擂る
+    - read: スル
+      pos: 動詞,自立
+
+- entry: 御機嫌を取る
+  phrase:
+  - 媚びる
+  semantic: 状態変化なし（活動）-他者に動作を促す動作-誘惑・強制-勧誘・誘惑-誘惑
+  patterns:
+  - cases:
+    - base: 御
+    - read: ゴ
+      pos: 接頭詞,名詞接続
+  - cases:
+    - base: 機嫌
+    - read: キゲン
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 取る
+    - read: トル
+      pos: 動詞,自立
+
+- entry: 胡麻を擂る
+  phrase:
+  - 媚びる
+  semantic: 状態変化なし（活動）-他者に動作を促す動作-誘惑・強制-勧誘・誘惑-誘惑
+  patterns:
+  - cases:
+    - base: 胡麻
+    - read: ゴマ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 擂る
+    - read: スル
+      pos: 動詞,自立
+
+- entry: 味噌擂りをする
+  phrase:
+  - 媚びる
+  semantic: 状態変化なし（活動）-他者に動作を促す動作-誘惑・強制-勧誘・誘惑-誘惑
+  patterns:
+  - cases:
+    - base: 味噌擂り
+    - read: ミソスリ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: する
+    - read: スル
+      pos: 動詞,自立
+
+- entry: 胡麻擂りをする
+  phrase:
+  - 媚びる
+  semantic: 状態変化なし（活動）-他者に動作を促す動作-誘惑・強制-勧誘・誘惑-誘惑
+  patterns:
+  - cases:
+    - base: 胡麻擂り
+    - read: ゴマスリ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: する
+    - read: スル
+      pos: 動詞,自立
+
+- entry: お土砂を掛ける
+  phrase:
+  - 媚びる
+  semantic: 状態変化なし（活動）-他者に動作を促す動作-誘惑・強制-勧誘・誘惑-誘惑
+  patterns:
+  - cases:
+    - base: お土砂
+    - read: オドシャ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 掛ける
+    - read: カケル
+      pos: 動詞,自立
+
+- entry: お太鼓を叩く
+  phrase:
+  - 媚びる
+  semantic: 状態変化なし（活動）-他者に動作を促す動作-誘惑・強制-勧誘・誘惑-誘惑
+  patterns:
+  - cases:
+    - base: お太鼓
+    - read: オタイコ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 叩く
+    - read: タタク
+      pos: 動詞,自立
+
+- entry: おべっかを使う
+  phrase:
+  - 媚びる
+  semantic: 状態変化なし（活動）-他者に動作を促す動作-誘惑・強制-勧誘・誘惑-誘惑
+  patterns:
+  - cases:
+    - base: おべっか
+    - read: オベッカ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 使う
+    - read: ツカウ
+      pos: 動詞,自立
+
+- entry: 歓心を買う
+  phrase:
+  - 媚びる
+  semantic: 状態変化なし（活動）-他者に動作を促す動作-誘惑・強制-勧誘・誘惑-誘惑
+  patterns:
+  - cases:
+    - base: 歓心
+    - read: カンシン
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 買う
+    - read: カウ
+      pos: 動詞,自立
+
+- entry: おべんちゃらを言う
+  phrase:
+  - 媚びる
+  semantic: 状態変化なし（活動）-他者に動作を促す動作-誘惑・強制-勧誘・誘惑-誘惑
+  patterns:
+  - cases:
+    - base: おべんちゃら
+    - read: オベンチャラ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 言う
+    - read: イウ
+      pos: 動詞,自立
+
+- entry: 襟に付く
+  phrase:
+  - 媚びる
+  semantic: 状態変化なし（活動）-他者に動作を促す動作-誘惑・強制-勧誘・誘惑-誘惑
+  patterns:
+  - cases:
+    - base: 襟
+    - read: エリ
+      pos: 名詞,一般
+  - cases:
+    - base: に
+    - read: ニ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 付く
+    - read: ツク
+      pos: 動詞,自立
+
+- entry: 髭の塵を払う
+  phrase:
+  - 媚びる
+  semantic: 状態変化なし（活動）-他者に動作を促す動作-誘惑・強制-勧誘・誘惑-誘惑
+  patterns:
+  - cases:
+    - base: 髭
+    - read: ヒゲ
+      pos: 名詞,一般
+  - cases:
+    - base: の
+    - read: ノ
+      pos: 助詞,連体化
+  - cases:
+    - base: 塵
+    - read: チリ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 払う
+    - read: ハラウ
+      pos: 動詞,自立
+
+- entry: 遅遅たるものだ
+  phrase:
+  - 遅い
+  semantic: 状態変化なし（状態）-主体の性質-性質（人）-性格・特性
+  patterns:
+  - cases:
+    - base: 遅遅
+    - read: チチ
+      pos: 名詞,一般
+  - cases:
+    - base: たる
+    - read: タル
+      pos: 助動詞
+  - cases:
+    - base: もの
+    - read: モノ
+      pos: 名詞,非自立,一般
+  - cases:
+    - base: だ
+    - read: ダ
+      pos: 助動詞
+
+- entry: 凛としている
+  phrase:
+  - 凛凛しい
+  semantic: 状態変化なし（活動）-動作の付帯状況-動作の様態・態度・表情-表情
+  patterns:
+  - cases:
+    - base: 凛と
+    - read: リント
+      pos: 副詞,一般
+  - cases:
+    - base: し
+    - read: シ
+      pos: 動詞,自立
+  - cases:
+    - base: て
+    - read: テ
+      pos: 助詞,接続助詞
+  - cases:
+    - base: いる
+    - read: イル
+      pos: 動詞,非自立
+
+- entry: きりっとしている
+  phrase:
+  - 凛凛しい
+  semantic: 状態変化なし（活動）-動作の付帯状況-動作の様態・態度・表情-表情
+  patterns:
+  - cases:
+    - base: きりっと
+    - read: キリット
+      pos: 副詞,一般
+  - cases:
+    - base: し
+    - read: シ
+      pos: 動詞,自立
+  - cases:
+    - base: て
+    - read: テ
+      pos: 助詞,接続助詞
+  - cases:
+    - base: いる
+    - read: イル
+      pos: 動詞,非自立
+
+- entry: 挙措を失う
+  phrase:
+  - 取り乱す
+  semantic: 状態変化あり-主体の変化-心理的変化-感情変化-動揺
+  patterns:
+  - cases:
+    - base: 挙措
+    - read: キョソ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 失う
+    - read: ウシナウ
+      pos: 動詞,自立
+
+- entry: 泡を食う
+  phrase:
+  - 取り乱す
+  semantic: 状態変化あり-主体の変化-心理的変化-感情変化-動揺
+  patterns:
+  - cases:
+    - base: 泡
+    - read: アワ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 食う
+    - read: クウ
+      pos: 動詞,自立
+
+- entry: 栃麺棒を食う
+  phrase:
+  - 取り乱す
+  semantic: 状態変化あり-主体の変化-心理的変化-感情変化-動揺
+  patterns:
+  - cases:
+    - base: 栃麺棒
+    - read: トチメンボウ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 食う
+    - read: クウ
+      pos: 動詞,自立
+
+- entry: 蒼然としている
+  phrase:
+  - 薄暗い
+  semantic: 状態変化なし（状態）-状態-状態-明るい／暗い-暗い
+  patterns:
+  - cases:
+    - base: 蒼然
+    - read: ソウゼン
+      pos: 名詞,一般
+  - cases:
+    - base: と
+    - read: ト
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: し
+    - read: シ
+      pos: 動詞,自立
+  - cases:
+    - base: て
+    - read: テ
+      pos: 助詞,接続助詞
+  - cases:
+    - base: いる
+    - read: イル
+      pos: 動詞,非自立
+
+- entry: ギャップがある
+  phrase:
+  - 異なる
+  semantic: 状態変化なし（状態）-関係-関係（対象）-一致／相違-相違
+  patterns:
+  - cases:
+    - base: ギャップ
+    - read: ギャップ
+      pos: 名詞,一般
+  - cases:
+    - base: が
+    - read: ガ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: ある
+    - read: アル
+      pos: 動詞,自立
+
+- entry: 違いがある
+  phrase:
+  - 異なる
+  semantic: 状態変化なし（状態）-関係-関係（対象）-一致／相違-相違
+  patterns:
+  - cases:
+    - base: 違い
+    - read: チガイ
+      pos: 名詞,ナイ形容詞語幹
+  - cases:
+    - base: が
+    - read: ガ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: ある
+    - read: アル
+      pos: 動詞,自立
+
+- entry: 相違がある
+  phrase:
+  - 異なる
+  semantic: 状態変化なし（状態）-関係-関係（対象）-一致／相違-相違
+  patterns:
+  - cases:
+    - base: 相違
+    - read: ソウイ
+      pos: 名詞,サ変接続
+  - cases:
+    - base: が
+    - read: ガ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: ある
+    - read: アル
+      pos: 動詞,自立
+
+- entry: 差がある
+  phrase:
+  - 異なる
+  semantic: 状態変化なし（状態）-関係-関係（対象）-一致／相違-相違
+  patterns:
+  - cases:
+    - base: 差
+    - read: サ
+      pos: 名詞,一般
+  - cases:
+    - base: が
+    - read: ガ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: ある
+    - read: アル
+      pos: 動詞,自立
+
+- entry: 差異がある
+  phrase:
+  - 異なる
+  semantic: 状態変化なし（状態）-関係-関係（対象）-一致／相違-相違
+  patterns:
+  - cases:
+    - base: 差異
+    - read: サイ
+      pos: 名詞,一般
+  - cases:
+    - base: が
+    - read: ガ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: ある
+    - read: アル
+      pos: 動詞,自立
+
+- entry: 隔たりがある
+  phrase:
+  - 異なる
+  semantic: 状態変化なし（状態）-関係-関係（対象）-一致／相違-相違
+  patterns:
+  - cases:
+    - base: 隔たり
+    - read: ヘダタリ
+      pos: 名詞,一般
+  - cases:
+    - base: が
+    - read: ガ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: ある
+    - read: アル
+      pos: 動詞,自立
+
+- entry: 開きがある
+  phrase:
+  - 異なる
+  semantic: 状態変化なし（状態）-関係-関係（対象）-一致／相違-相違
+  patterns:
+  - cases:
+    - base: 開き
+    - read: ヒラキ
+      pos: 名詞,一般
+  - cases:
+    - base: が
+    - read: ガ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: ある
+    - read: アル
+      pos: 動詞,自立
+
+- entry: 渦を巻く
+  phrase:
+  - 渦巻く
+  semantic: 状態変化なし（活動）-移動動作-移動動作（物理）-循環
+  patterns:
+  - cases:
+    - base: 渦
+    - read: ウズ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 巻く
+    - read: マク
+      pos: 動詞,自立
+
+- entry: 渦巻きになる
+  phrase:
+  - 渦巻く
+  semantic: 状態変化なし（活動）-移動動作-移動動作（物理）-循環
+  patterns:
+  - cases:
+    - base: 渦巻き
+    - read: ウズマキ
+      pos: 名詞,一般
+  - cases:
+    - base: に
+    - read: ニ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: なる
+    - read: ナル
+      pos: 動詞,自立
+
+- entry: 手抜かりがある
+  phrase:
+  - 粗っぽい
+  semantic: 状態変化なし（活動）-動作の付帯状況-動作の様態・態度・表情-人に対する態度-大胆
+  patterns:
+  - cases:
+    - base: 手抜かり
+    - read: テヌカリ
+      pos: 名詞,一般
+  - cases:
+    - base: が
+    - read: ガ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: ある
+    - read: アル
+      pos: 動詞,自立
+
+- entry: 馬鹿にする
+  phrase:
+  - 笑う
+  semantic: 状態変化あり-主体の変化（判断・認識の変化）-判断（認識）-心理的立場
+  patterns:
+  - cases:
+    - base: 馬鹿
+    - read: バカ
+      pos: 名詞,形容動詞語幹
+  - cases:
+    - base: に
+    - read: ニ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: する
+    - read: スル
+      pos: 動詞,自立
+
+- entry: 小馬鹿にする
+  phrase:
+  - 笑う
+  semantic: 状態変化あり-主体の変化（判断・認識の変化）-判断（認識）-心理的立場
+  patterns:
+  - cases:
+    - base: 小馬鹿
+    - read: コバカ
+      pos: 名詞,一般
+  - cases:
+    - base: に
+    - read: ニ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: する
+    - read: スル
+      pos: 動詞,自立
+
+- entry: 気を許す
+  phrase:
+  - 緩む
+  semantic: 状態変化あり-主体の変化-心理的変化-気持ちの変化-安心
+  patterns:
+  - cases:
+    - base: 気
+    - read: キ
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 許す
+    - read: ユルス
+      pos: 動詞,自立
+
+- entry: 発想を得る
+  phrase:
+  - 思い付く
+  semantic: 状態変化あり-生成・消滅-生成（情報）-計画・考案
+  patterns:
+  - cases:
+    - base: 発想
+    - read: ハッソウ
+      pos: 名詞,サ変接続
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 得る
+    - read: エル
+      pos: 動詞,自立
+
+- entry: アイデアを得る
+  phrase:
+  - 思い付く
+  semantic: 状態変化あり-生成・消滅-生成（情報）-計画・考案
+  patterns:
+  - cases:
+    - base: アイデア
+    - read: アイデア
+      pos: 名詞,一般
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 得る
+    - read: エル
+      pos: 動詞,自立
+
+- entry: 着想を得る
+  phrase:
+  - 思い付く
+  semantic: 状態変化あり-生成・消滅-生成（情報）-計画・考案
+  patterns:
+  - cases:
+    - base: 着想
+    - read: チャクソウ
+      pos: 名詞,サ変接続
+  - cases:
+    - base: を
+    - read: ヲ
+      pos: 助詞,格助詞,一般
+  - cases:
+    - base: 得る
+    - read: エル
+      pos: 動詞,自立
+

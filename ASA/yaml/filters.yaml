@@ -1,0 +1,1142 @@
+---
+dict:
+- entry: あぐらをかく
+  negative: 
+    polarity: AFFIRMATIVE
+    category: 
+    - 人
+    - 場所
+    - 身体部分
+    - 数値
+    sentelem: 
+    - PREDICATE
+    - ADNOMINAL
+  positive: 
+    polarity: NEGATIVE
+    category: 
+    - 組織
+    - モノ
+    - その他
+    - 動作
+    sentelem: 
+    - ADVERBIAL
+- entry: 足が出る
+  negative: 
+    category: 
+    - 人
+    - 場所
+    - モノ
+    - その他
+    - 生物
+    - 組織
+    - 身体部分
+    - 時間
+  positive: 
+    category: 
+    - 数値
+    - 動作
+- entry: 足元を見る
+  negative: 
+    category: 
+    - 場所
+    mood: 
+    - SUBJUNCTIVE
+    - INDICATIVE
+    voice: 
+    - ACTIVE
+  positive: 
+    category: 
+    - 人
+    - モノ
+    - その他
+    - 動作
+    mood: 
+    - INTERROGATIVE
+    - IMPARATIVE
+    voice: 
+    - PASSIVE
+- entry: 足を洗う
+  negative: 
+    sentelem: 
+    - ADNOMINAL
+    mood: 
+    - SUBJUNCTIVE
+  positive: 
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+    mood: 
+    - OPTATIVE
+    - INDICATIVE
+- entry: 足を伸ばす
+  positive: 
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+    mood: 
+    - SUBJUNCTIVE
+    - INDICATIVE
+  negative: 
+    sentelem: 
+    - ADNOMINAL
+    mood: 
+    - OPTATIVE
+- entry: 頭が下がる
+  positive: 
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+  negative: 
+    sentelem: 
+    - ADNOMINAL
+- entry: 頭を痛める
+  positive: 
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+  negative: 
+    sentelem: 
+    - ADNOMINAL
+- entry: 頭を抱える
+  positive: 
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+  negative: 
+    sentelem: 
+    - ADNOMINAL
+- entry: 脂が乗る
+  positive: 
+    sentelem: 
+    - ADVERBIAL
+  negative: 
+    sentelem: 
+    - PREDICATE
+    - ADNOMINAL
+- entry: 油を売る
+  positive: 
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+  negative: 
+    sentelem: 
+    - ADNOMINAL
+- entry: 油を絞る
+  negative: 
+    category: 
+    - 人
+    - モノ
+    - その他
+    - 身体部分
+    - 数値
+    - 動作
+    sentelem: 
+    - PREDICATE
+    - ADNOMINAL
+    mood: 
+    - INDICATIVE
+    voice: 
+    - ACTIVE
+  positive: 
+    category: 
+    - 組織
+    - 時間
+    sentelem: 
+    - ADVERBIAL
+    mood: 
+    - INTERROGATIVE
+    voice: 
+    - PASSIVE
+- entry: 網を張る
+  negative: 
+    voice: 
+    - ACTIVE
+  positive: 
+    voice: 
+    - PASSIVE
+- entry: 色を失う
+  negative: 
+    category: 
+    - 場所
+    - モノ
+    - その他
+    - 身体部分
+    mood: 
+    - INDICATIVE
+  positive: 
+    category: 
+    - 人
+    - 時間
+    mood: 
+    - IMPARATIVE
+- entry: 腕が上がる
+  positive: 
+    polarity: AFFIRMATIVE
+    category: 
+    - 人
+    - 場所
+    - モノ
+    - その他
+    - 動作
+  negative: 
+    polarity: NEGATIVE
+    category: 
+    - 生物
+    - 身体部分
+    - 数値
+- entry: 尾を引く
+  positive: 
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+  negative: 
+    sentelem: 
+    - ADNOMINAL
+- entry: 角が取れる
+  positive: 
+    polarity: AFFIRMATIVE
+    category: 
+    - 人
+    - 場所
+    - モノ
+    - その他
+    - 生物
+    - 動作
+  negative: 
+    polarity: NEGATIVE
+    category: 
+    - 数値
+    - 時間
+- entry: くちばしを入れる
+  positive: 
+    polarity: NEGATIVE
+    category: 
+    - 人
+    - モノ
+    - その他
+    - 動作
+    mood: 
+    - SUBJUNCTIVE
+  negative: 
+    polarity: AFFIRMATIVE
+    category: 
+    - 場所
+    - 生物
+    - 身体部分
+    - 数値
+    mood: 
+    - INDICATIVE
+    - INTERROGATIVE
+- entry: 唇をかむ
+  negative: 
+    category: 
+    - 人
+  positive: 
+    category: 
+    - 場所
+    - その他
+- entry: 口を切る
+  negative: 
+    category: 
+    - モノ
+    - 生物
+    - 身体部分
+    sentelem: 
+    - ADNOMINAL
+    mood: 
+    - SUBJUNCTIVE
+    - INTERROGATIVE
+  positive: 
+    category: 
+    - 人
+    - 場所
+    - その他
+    - 時間
+    - 動作
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+    mood: 
+    - INDICATIVE
+- entry: 首が回らない
+  positive: 
+    category: 
+    - 場所
+    - モノ
+    - 動作
+    mood: 
+    - SUBJUNCTIVE
+    - INTERROGATIVE
+  negative: 
+    category: 
+    - 人
+    - その他
+    - 時間
+    mood: 
+    - INDICATIVE
+- entry: 首を切る
+  negative: 
+    polarity: AFFIRMATIVE
+    category: 
+    - 人
+    - 身体部分
+    sentelem: 
+    - ADNOMINAL
+    mood: 
+    - OPTATIVE
+    - INDICATIVE
+    voice: 
+    - ACTIVE
+    - CAUSATIVE
+  positive: 
+    polarity: NEGATIVE
+    category: 
+    - 組織
+    - 場所
+    - モノ
+    - その他
+    - 数値
+    - 動作
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+    mood: 
+    - INTERROGATIVE
+    - IMPARATIVE
+    voice: 
+    - PASSIVE
+- entry: けたが違う
+  positive: 
+    polarity: AFFIRMATIVE
+    category: 
+    - 人
+    - 場所
+    - モノ
+    - その他
+    - 動作
+  negative: 
+    polarity: NEGATIVE
+    category: 
+    - 数値
+- entry: ごまをする
+  negative: 
+    category: 
+    - モノ
+    - 数値
+    - 時間
+    sentelem: 
+    - PREDICATE
+    - ADNOMINAL
+    mood: 
+    - INDICATIVE
+    voice: 
+    - ACTIVE
+  positive: 
+    category: 
+    - 組織
+    - 人
+    - 場所
+    - その他
+    sentelem: 
+    - ADVERBIAL
+    mood: 
+    - IMPARATIVE
+    - INTERROGATIVE
+    voice: 
+    - PASSIVE
+- entry: しっぽを出す
+  positive: 
+    category: 
+    - 人
+    - 生物
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+  negative: 
+    category: 
+    - 場所
+    - モノ
+    - その他
+    - 身体部分
+    - 数値
+    sentelem: 
+    - ADNOMINAL
+- entry: しっぽをつかむ
+  positive: 
+    category: 
+    - 人
+    - 場所
+    - その他
+    - 身体部分
+    - 時間
+    mood: 
+    - SUBJUNCTIVE
+    voice: 
+    - CAUSATIVE
+  negative: 
+    category: 
+    - モノ
+    - 生物
+    mood: 
+    - INDICATIVE
+    voice: 
+    - ACTIVE
+    - PASSIVE
+- entry: 図に当たる
+  negative: 
+    category: 
+    - 場所
+    sentelem: 
+    - ADNOMINAL
+  positive: 
+    category: 
+    - モノ
+    - その他
+    - 時間
+    - 動作
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+- entry: 背を向ける
+  positive: 
+    sentelem: 
+    - ADVERBIAL
+  negative: 
+    sentelem: 
+    - PREDICATE
+- entry: 血が通う
+  positive: 
+    category: 
+    - 人
+    - モノ
+    - その他
+    - 動作
+  negative: 
+    category: 
+    - 場所
+    - 身体部分
+    - 数値
+    - 時間
+- entry: 宙に浮く
+  negative: 
+    category: 
+    - 人
+    - 場所
+    - 身体部分
+    - 数値
+  positive: 
+    category: 
+    - モノ
+    - その他
+    - 動作
+- entry: 土が付く
+  positive: 
+    category: 
+    - 組織
+    - 人
+    - 場所
+    - その他
+    - 動作
+  negative: 
+    category: 
+    - モノ
+    - 身体部分
+    - 数値
+- entry: 手が出ない
+  positive: 
+    category: 
+    - 人
+    - モノ
+    - その他
+    - 動作
+  negative: 
+    category: 
+    - 数値
+    - 時間
+- entry: 手が届く
+  positive: 
+    category: 
+    - 人
+    - 場所
+    - モノ
+    - その他
+    - 組織
+    - 時間
+    - 動作
+  negative: 
+    category: 
+    - 身体部分
+    - 数値
+- entry: 手がない
+  positive: 
+    category: 
+    - 人
+    - モノ
+    - その他
+    - 動作
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+  negative: 
+    category: 
+    - 場所
+    - 身体部分
+    sentelem: 
+    - ADNOMINAL
+- entry: 手が離れる
+  positive: 
+    category: 
+    - 組織
+    - 人
+    - 動作
+    sentelem: 
+    - ADVERBIAL
+    mood: 
+    - SUBJUNCTIVE
+  negative: 
+    category: 
+    - モノ
+    - その他
+    - 身体部分
+    - 数値
+    - 時間
+    sentelem: 
+    - PREDICATE
+    - ADNOMINAL
+    mood: 
+    - INDICATIVE
+    - INTERROGATIVE
+- entry: 手に乗る
+  negative: 
+    polarity: AFFIRMATIVE
+    category: 
+    - モノ
+    - その他
+    - 生物
+    - 動作
+    sentelem: 
+    - ADVERBIAL
+    mood: 
+    - SUBJUNCTIVE
+    - INDICATIVE
+  positive: 
+    polarity: NEGATIVE
+    category: 
+    - 人
+    - 数値
+    sentelem: 
+    - PREDICATE
+    - ADNOMINAL
+    mood: 
+    - INTERROGATIVE
+- entry: 手を入れる
+  negative: 
+    category: 
+    - 場所
+    - 身体部分
+    mood: 
+    - SUBJUNCTIVE
+    - OPTATIVE
+    voice: 
+    - PASSIVE
+  positive: 
+    category: 
+    - 人
+    - モノ
+    - その他
+    - 数値
+    - 動作
+    mood: 
+    - INDICATIVE
+    voice: 
+    - ACTIVE
+- entry: 手を掛ける
+  negative: 
+    polarity: AFFIRMATIVE
+    category: 
+    - 人
+    - 場所
+    - モノ
+    - その他
+    - 身体部分
+  positive: 
+    polarity: NEGATIVE
+    category: 
+    - 生物
+    - 時間
+    - 数値
+    - 動作
+- entry: 手を切る
+  positive: 
+    polarity: AFFIRMATIVE
+    category: 
+    - 組織
+    - 人
+    - 場所
+    - その他
+    - 時間
+    - 動作
+    sentelem: 
+    - ADVERBIAL
+  negative: 
+    polarity: NEGATIVE
+    category: 
+    - モノ
+    sentelem: 
+    - PREDICATE
+- entry: 手を取る
+  negative: 
+    voice: 
+    - ACTIVE
+  positive: 
+    voice: 
+    - PASSIVE
+- entry: 手を握る
+  negative: 
+    category: 
+    - 人
+    - 場所
+    - モノ
+    - その他
+    - 身体部分
+    - 数値
+    - 動作
+  positive: 
+    category: 
+    - 組織
+    - 時間
+- entry: 手を広げる
+  negative: 
+    category: 
+    - 人
+    - 生物
+    - 時間
+    - 数値
+    mood: 
+    - SUBJUNCTIVE
+  positive: 
+    category: 
+    - 場所
+    - モノ
+    - その他
+    - 組織
+    - 動作
+    mood: 
+    - INDICATIVE
+    - INTERROGATIVE
+- entry: 手を回す
+  positive: 
+    category: 
+    - 組織
+    - 人
+    - モノ
+    - 動作
+  negative: 
+    category: 
+    - 場所
+    - その他
+    - 身体部分
+    - 時間
+- entry: 峠を越す
+  negative: 
+    sentelem: 
+    - ADNOMINAL
+    mood: 
+    - SUBJUNCTIVE
+  positive: 
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+    mood: 
+    - OPTATIVE
+    - INDICATIVE
+    - INTERROGATIVE
+- entry: 泥を塗る
+  negative: 
+    sentelem: 
+    - ADNOMINAL
+    mood: 
+    - OPTATIVE
+  positive: 
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+    mood: 
+    - INDICATIVE
+- entry: 泥を吐く
+  positive: 
+    mood: 
+    - SUBJUNCTIVE
+    - OPTATIVE
+  negative: 
+    mood: 
+    - INDICATIVE
+    - INTERROGATIVE
+- entry: 波に乗る
+  positive: 
+    category: 
+    - 組織
+    - 場所
+    - モノ
+    - その他
+    - 時間
+    - 動作
+    mood: 
+    - SUBJUNCTIVE
+    - OPTATIVE
+    - INDICATIVE
+    - INTERROGATIVE
+  negative: 
+    category: 
+    - 人
+    - 数値
+    mood: 
+    - IMPARATIVE
+- entry: 熱を上げる
+  negative: 
+    polarity: NEGATIVE
+    mood: 
+    - SUBJUNCTIVE
+  positive: 
+    polarity: AFFIRMATIVE
+    mood: 
+    - INDICATIVE
+    - IMPARATIVE
+- entry: 熱を入れる
+  negative: 
+    polarity: NEGATIVE
+    category: 
+    - 場所
+    - その他
+    - 身体部分
+    mood: 
+    - SUBJUNCTIVE
+  positive: 
+    polarity: AFFIRMATIVE
+    category: 
+    - 組織
+    - 人
+    - モノ
+    - 時間
+    - 動作
+    mood: 
+    - OPTATIVE
+    - INDICATIVE
+    - INTERROGATIVE
+- entry: 根を張る
+  positive: 
+    polarity: NEGATIVE
+    sentelem: 
+    - PREDICATE
+    mood: 
+    - SUBJUNCTIVE
+    voice: 
+    - ACTIVE
+  negative: 
+    polarity: AFFIRMATIVE
+    sentelem: 
+    - ADVERBIAL
+    - ADNOMINAL
+    mood: 
+    - INDICATIVE
+    voice: 
+    - CAUSATIVE
+- entry: バトンを渡す
+  negative: 
+    category: 
+    - 人
+    - モノ
+    - その他
+    - 身体部分
+    - 時間
+    - 動作
+    sentelem: 
+    - PREDICATE
+    voice: 
+    - ACTIVE
+  positive: 
+    category: 
+    - 組織
+    - 生物
+    - 数値
+    sentelem: 
+    - ADVERBIAL
+    - ADNOMINAL
+    voice: 
+    - PASSIVE
+- entry: 鼻息が荒い
+  positive: 
+    category: 
+    - 組織
+    - 場所
+    - モノ
+    - 身体部分
+    - 動作
+  negative: 
+    category: 
+    - 人
+    - その他
+    - 時間
+- entry: 鼻が高い
+  negative: 
+    category: 
+    - その他
+    - 身体部分
+    mood: 
+    - SUBJUNCTIVE
+  positive: 
+    category: 
+    - 組織
+    - 人
+    - 場所
+    - 時間
+    mood: 
+    - INDICATIVE
+- entry: 鼻に付く
+  negative: 
+    mood: 
+    - SUBJUNCTIVE
+  positive: 
+    mood: 
+    - INDICATIVE
+    - INTERROGATIVE
+- entry: 鼻を折る
+  positive: 
+    category: 
+    - 人
+    - その他
+    mood: 
+    - SUBJUNCTIVE
+    - OPTATIVE
+    - INDICATIVE
+    - IMPARATIVE
+  negative: 
+    category: 
+    - 場所
+    - モノ
+    - 身体部分
+    - 数値
+    - 時間
+    - 動作
+    mood: 
+    - INTERROGATIVE
+- entry: 腹を割る
+  positive: 
+    sentelem: 
+    - ADVERBIAL
+  negative: 
+    sentelem: 
+    - PREDICATE
+    - ADNOMINAL
+- entry: 歯を食い縛る
+  negative: 
+    category: 
+    - 人
+    - その他
+  positive: 
+    category: 
+    - モノ
+    - 時間
+    - 動作
+- entry: 火が消えたよう
+  positive: 
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+  negative: 
+    sentelem: 
+    - ADNOMINAL
+- entry: 人を食う
+  negative: 
+    category: 
+    - 組織
+    - 場所
+    - モノ
+    mood: 
+    - SUBJUNCTIVE
+  positive: 
+    category: 
+    - 人
+    - その他
+    - 身体部分
+    - 数値
+    mood: 
+    - INDICATIVE
+- entry: 筆を入れる
+  positive: 
+    category: 
+    - 人
+    - モノ
+    - その他
+    - 数値
+    - 動作
+  negative: 
+    category: 
+    - 場所
+    - 身体部分
+- entry: 筆を加える
+  positive: 
+    category: 
+    - 人
+    - 場所
+    - モノ
+    - その他
+    - 生物
+    - 数値
+    - 動作
+  negative: 
+    category: 
+    - 身体部分
+- entry: 船をこぐ
+  negative: 
+    category: 
+    - 人
+    - モノ
+    - 生物
+    - 数値
+  positive: 
+    category: 
+    - 場所
+    - その他
+    - 身体部分
+    - 時間
+- entry: 骨が折れる
+  positive: 
+    category: 
+    - 人
+    - モノ
+    - その他
+    - 動作
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+    mood: 
+    - INDICATIVE
+  negative: 
+    category: 
+    - 組織
+    - 場所
+    - 身体部分
+    sentelem: 
+    - ADNOMINAL
+    mood: 
+    - INTERROGATIVE
+- entry: 骨を埋める
+  positive: 
+    category: 
+    - 組織
+    - 人
+    - 場所
+    - モノ
+    - その他
+    - 時間
+    sentelem: 
+    - ADVERBIAL
+  negative: 
+    category: 
+    - 生物
+    - 数値
+    sentelem: 
+    - ADNOMINAL
+- entry: 骨を折る
+  negative: 
+    polarity: AFFIRMATIVE
+    category: 
+    - 場所
+    - その他
+    - 生物
+    - 身体部分
+    - 数値
+    sentelem: 
+    - PREDICATE
+    - ADNOMINAL
+    mood: 
+    - SUBJUNCTIVE
+    - INDICATIVE
+  positive: 
+    polarity: NEGATIVE
+    category: 
+    - 人
+    - モノ
+    - 組織
+    - 動作
+    sentelem: 
+    - ADVERBIAL
+    mood: 
+    - INTERROGATIVE
+- entry: 幕が開く
+  negative: 
+    sentelem: 
+    - ADVERBIAL
+  positive: 
+    sentelem: 
+    - PREDICATE
+    - ADNOMINAL
+- entry: 幕を開ける
+  negative: 
+    mood: 
+    - SUBJUNCTIVE
+  positive: 
+    mood: 
+    - INDICATIVE
+- entry: 水に流す
+  positive: 
+    polarity: AFFIRMATIVE
+    category: 
+    - 人
+    - 場所
+    - その他
+    - 生物
+    - 時間
+    - 動作
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+    voice: 
+    - ACTIVE
+    - CAUSATIVE
+  negative: 
+    polarity: NEGATIVE
+    category: 
+    - モノ
+    - 身体部分
+    sentelem: 
+    - ADNOMINAL
+    voice: 
+    - PASSIVE
+- entry: 耳が痛い
+  negative: 
+    category: 
+    - 場所
+    - モノ
+    - その他
+    - 時間
+    - 動作
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+    mood: 
+    - INDICATIVE
+  positive: 
+    category: 
+    - 人
+    sentelem: 
+    - ADNOMINAL
+    mood: 
+    - INTERROGATIVE
+- entry: 胸が膨らむ
+  negative: 
+    category: 
+    - 人
+    sentelem: 
+    - PREDICATE
+    - ADNOMINAL
+  positive: 
+    category: 
+    - モノ
+    - その他
+    - 動作
+    sentelem: 
+    - ADVERBIAL
+- entry: 芽が出る
+  negative: 
+    mood: 
+    - INDICATIVE
+  positive: 
+    mood: 
+    - INTERROGATIVE
+- entry: 目がない
+  positive: 
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+  negative: 
+    sentelem: 
+    - ADNOMINAL
+- entry: メスを入れる
+  positive: 
+    category: 
+    - 人
+    - 場所
+    - モノ
+    - その他
+    - 組織
+    - 時間
+    - 動作
+  negative: 
+    category: 
+    - 生物
+    - 身体部分
+    - 数値
+- entry: 目を覆う
+  positive: 
+    category: 
+    - 人
+    - モノ
+    - その他
+    - 生物
+    - 動作
+  negative: 
+    category: 
+    - 場所
+    - 身体部分
+- entry: 目を覚ます
+  negative: 
+    category: 
+    - 人
+    - 場所
+    - モノ
+    - その他
+    - 数値
+    - 時間
+    - 動作
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+    voice: 
+    - ACTIVE
+    - PASSIVE
+  positive: 
+    category: 
+    - 生物
+    sentelem: 
+    - ADNOMINAL
+    voice: 
+    - CAUSATIVE
+- entry: 目をつぶる
+  negative: 
+    category: 
+    - 人
+    - 場所
+    - 数値
+  positive: 
+    category: 
+    - モノ
+    - その他
+    - 身体部分
+    - 時間
+    - 動作
+- entry: 目を細くする
+  positive: 
+    mood: 
+    - SUBJUNCTIVE
+  negative: 
+    mood: 
+    - INDICATIVE
+- entry: 指をくわえる
+  positive: 
+    sentelem: 
+    - ADVERBIAL
+    - PREDICATE
+  negative: 
+    sentelem: 
+    - ADNOMINAL
+- entry: 弓を引く
+  positive: 
+    polarity: NEGATIVE
+    mood: 
+    - OPTATIVE
+  negative: 
+    polarity: AFFIRMATIVE
+    mood: 
+    - INDICATIVE

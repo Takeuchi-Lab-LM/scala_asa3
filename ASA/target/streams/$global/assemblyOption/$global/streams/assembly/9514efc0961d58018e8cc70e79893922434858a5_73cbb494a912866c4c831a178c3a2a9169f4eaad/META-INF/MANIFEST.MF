@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Export-Package: org.yaml.snakeyaml.util;version="1.13",org.yaml.snakey
+ aml.parser;version="1.13",org.yaml.snakeyaml.serializer;version="1.13
+ ",org.yaml.snakeyaml.introspector;version="1.13",org.yaml.snakeyaml.c
+ omposer;version="1.13",org.yaml.snakeyaml.tokens;version="1.13",org.y
+ aml.snakeyaml.extensions.compactnotation;version="1.13",org.yaml.snak
+ eyaml.reader;version="1.13",org.yaml.snakeyaml.scanner;version="1.13"
+ ,org.yaml.snakeyaml.resolver;version="1.13",org.yaml.snakeyaml.error;
+ version="1.13",org.yaml.snakeyaml.emitter;version="1.13",org.yaml.sna
+ keyaml.nodes;version="1.13",org.yaml.snakeyaml.representer;version="1
+ .13",org.yaml.snakeyaml.events;version="1.13",org.yaml.snakeyaml.cons
+ tructor;version="1.13",org.yaml.snakeyaml;version="1.13"
+Built-By: somov
+Tool: Bnd-1.15.0
+Bundle-Name: SnakeYAML
+Created-By: Apache Maven Bundle Plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Build-Jdk: 1.6.0_35
+Bundle-Version: 1.13.0
+Bnd-LastModified: 1378404431273
+Bundle-ManifestVersion: 2
+Bundle-License: LICENSE.txt
+Bundle-Description: YAML 1.1 parser and emitter for Java
+Bundle-SymbolicName: org.yaml.snakeyaml
+

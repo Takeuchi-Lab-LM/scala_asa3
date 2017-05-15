@@ -1,0 +1,81 @@
+---
+dict:
+- head: 司会
+  support: 者
+  instance: 
+  - cases:
+    - noun: あのテレビ番組
+      part: の
+      category: 
+      semrole: 主体
+      arg: ARG1
+    - noun: 太郎
+      part: だ
+      category: 
+      semrole: 対象（人）
+      arg: ARG0
+    agent:
+    - agentive: 司会する
+      semantic: 状態変化なし（状態）/状態維持/維持・管理/運営・統治/統治 
+      arg0: 動作主
+      arg1: 場所
+      arg2: 
+- head: 友達
+  support: 
+  instance: 
+  - cases:
+    - noun: 私
+      part: の
+      category: 
+      semrole: 主体
+      arg: ARG1
+    - noun: 花子さん
+      part: だ
+      category: 
+      semrole: 対象（人）
+      arg: ARG0
+  - cases:
+    - noun: 学校
+      part: の
+      category: 
+      semrole: 場所
+      arg: ARG1
+    - noun: 花子さん
+      part: だ
+      category: 
+      semrole: 対象（人）
+      arg: ARG0
+- head: 利点
+  support: 
+  instance: 
+  - cases:
+    - noun: この参考書
+      part: の
+      category: 
+      semrole: 主体
+      arg: ARG1
+    - noun: 読みやすいこと
+      part: だ
+      category: 
+      semrole: 対象
+      arg: ARG2
+- head: 作者
+  support: 
+  instance: 
+  - cases:
+    - noun: あの小説
+      part: の
+      category: 
+      semrole: 主体
+      arg: ARG1
+    - noun: 田中さん
+      part: だ
+      category: 
+      semrole: 対象（人）
+      arg: ARG0
+    agent:
+    - agentive: 書く
+      semantic: 状態変化あり/生成・消滅/生成（物理）/生成 
+      arg0: 動作主
+      arg1: 対象（生成物）
+      arg2: 
