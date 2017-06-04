@@ -12,10 +12,11 @@ import scala.swing.event.ButtonClicked
  */
 object GuiAsa extends SimpleSwingApplication {
 	//print("起動中\r")
+    var analyzer: String = "cabocha -n1 -f1"
 
 	private val file = new YamlFile()
 	private val dicts = new LoadYaml(file)
-	private val parser = new Parse(dicts)
+	private val parser = new Parse(dicts,analyzer)
 	private val output = new Output("test")
 	private val goutput = new GuiOutput()
 	private val otype = "all"

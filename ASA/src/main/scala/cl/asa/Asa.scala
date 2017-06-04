@@ -18,7 +18,19 @@ object Asa {
 	private var parser: cl.asa.parse.Parse = null
 	private val output = new Output("test")
 	private var file = ""
+    var analyzer: String = "cabocha -n1 -f1"
 	def main(args: Array[String]): Unit = {
+		
+        var infile: String = ""
+		var itype: String = "all"
+
+		args.foreach { arg =>
+			arg match {
+				case "-x" => itype = "xml"
+                case "-j" => analyzer = "jdepp"
+				case _ => infile = arg
+			}
+		}
 		print("起動中\r")
 		val start = System.currentTimeMillis()
 		parser = this.startUp
@@ -26,15 +38,7 @@ object Asa {
 		val time: Float = end - start
 		val used: Float = (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) / 1024
 		println("%.3f".format(used / 1024) + "MB: " + "%.3f".format(time / 1000) + "秒")
-		var infile: String = ""
-		var itype: String = "all"
 
-		args.foreach { arg =>
-			arg match {
-				case "-x" => itype = "xml"
-				case _ => infile = arg
-			}
-		}
 		infile.isEmpty match {
 			case true => this.inputConsole(itype)
 			case false => this.inputFile(infile, itype)
@@ -50,14 +54,18 @@ object Asa {
 	def startUp: Parse = {
 		val files = new YamlFile()
 		val dicts = new LoadYaml(files)
-		val parser = new Parse(dicts)
+		val parser = new Parse(dicts, analyzer)
 		return parser
 	}
-
+/*
 	def startUpCabocha: CabochaParse = {
 		val parser = new CabochaParse
 		return parser
 	}
+*/
+    def getAnalyzer: String = {
+      return analyzer
+    }
 
 	private def inputFile(file: String, itype: String) {
 		val sorce = scala.io.Source.fromFile(file)

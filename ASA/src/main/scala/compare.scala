@@ -14,11 +14,12 @@ import scala.collection.JavaConversions._
 object compare {
 	//パラメータ
 	val infile: String = ""
+    val analyzer: String = "cabocha -n1 -f1"
 
 	print("起動中\r")
 	private val Files = new YamlFile()
 	private val Dicts = new LoadYaml(Files)
-	private val Parser = new Parse(Dicts)
+	private val Parser = new Parse(Dicts,analyzer)
 	private val Reader = new CsvReader()
 	private var Scount = Map("all" -> 0, "true" -> 0, "false" -> 0)
 	private var Rcount = Map("all" -> 0, "true" -> 0, "false" -> 0)

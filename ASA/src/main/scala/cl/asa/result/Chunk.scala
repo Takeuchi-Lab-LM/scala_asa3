@@ -3,7 +3,7 @@ package cl.asa.result
  * 文節の情報を格納するクラス(構造体)
  */
 
-class Chunk(line: String = "") {
+class Chunk(line: String = "", analyzer: String) {
 	// 必須な基本情報
 	var id: Int = 0 //文節のid
 	var surface: String = "" //文節の表層
@@ -50,9 +50,11 @@ class Chunk(line: String = "") {
 	var noun_arg:String = ""
 	var noun_agentiveRole:String = ""
 		
-	
-	
-	initChunk()
+	analyzer match {
+      case "cabocha -n1 -f1" => initChunk()
+      case "jdepp" => initChunkjdepp()
+    }
+
 	private def initChunk() {
 		val div1: Array[String] = line.split(" ")
 		val div2: Array[String] = div1.apply(3).split("/")
@@ -63,6 +65,15 @@ class Chunk(line: String = "") {
 		score = div1.apply(4).toFloat
 	}
 
+	private def initChunkjdepp() {
+		val div1: Array[String] = line.split(" ")
+		//val div2: Array[String] = div1.apply(3).split("/")
+		id = div1.apply(1).toInt
+		link = div1.apply(2).replace("D", "").toInt
+		//head = div2.apply(0).toInt
+		//fanc = div2.apply(1).toInt
+		//score = div1.apply(4).toFloat
+	}
 	
 	def addMorph(morph: Morph) {
 		morphs = morphs :+ morph

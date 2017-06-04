@@ -1,4 +1,4 @@
-package cl.asa.parse.cabocha
+package cl.asa.parse.analyzer
 /**
  *   cabochaの解析結果より文節間の関係や，語義付与に必要な動詞や格助詞などの情報の付与するクラス
  */
