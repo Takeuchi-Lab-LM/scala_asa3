@@ -19,7 +19,7 @@ class Morph(m_id: Int, line: String, analyzer: String) {
 	var tree = Seq.empty[Morph]
 	var chunk: Chunk = null
 	var forms: Array[String] = null
-			
+
 	analyzer match {
       case "cabocha -n1 -f1" => initMorph()
       case "jdepp" => initMorphjdepp()
@@ -49,15 +49,10 @@ class Morph(m_id: Int, line: String, analyzer: String) {
 		surface = div1(0)
 		if (!div2(0).equals("*")) { pos1 = div2(0) }
 		if (!div2(1).equals("*")) { pos2 = div2(1) }
-		if (!div2(2).equals("*")) { pos3 = div2(2) }
-		//if (!div2(3).equals("*")) { pos4 = div2(3) }
-		//if (!div2(4).equals("*")) { cform = div2(4) }
-		//if (!div2(5).equals("*")) { ctype = div2(5) }
+		if (!div2(2).equals("*")) { cform = div2(2) }
 		if (!div2(3).equals("*")) { ctype = div2(3) }
 		pos = getPosjdepp()
-		//base = div2.apply(6)
 		base = div2.apply(4)
-		//read = div2.apply(7)
 		read = div2.apply(5)
 		//ne = div1.apply(2)
 	}

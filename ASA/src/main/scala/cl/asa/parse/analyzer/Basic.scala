@@ -74,7 +74,7 @@ class Basic() {
 				morph.pos.contains("形容詞,自立") | morph.pos.contains("形容動詞語幹")
 			} => "adjective"
 			case morphs if morphs.exists { morph =>
-				morph.cform.contains("特殊・ダ") | morph.cform.contains("特殊・デス")
+				morph.cform.contains("特殊・ダ") | morph.cform.contains("特殊・デス") | morph.cform.contains("判定詞")
 			} => "copula"
 			case _ => "elem"
 		}
