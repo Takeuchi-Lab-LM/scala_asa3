@@ -70,8 +70,6 @@ class Morph(m_id: Int, line: String, analyzer: String) {
 		var pos: String = ""
 		if (!pos1.isEmpty()) { pos = pos + pos1 }
 		if (!pos2.isEmpty()) { pos = pos + "," + pos2 }
-		if (!pos3.isEmpty()) { pos = pos + "," + pos3 }
-		//if (!pos4.isEmpty()) { pos = pos + "," + pos4 }
 		return pos
 	}
 }

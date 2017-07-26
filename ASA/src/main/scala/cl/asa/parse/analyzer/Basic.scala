@@ -71,7 +71,7 @@ class Basic() {
 				morph.pos.contains("動詞,自立")
 			} => "verb"
 			case morphs if morphs.exists { morph =>
-				morph.pos.contains("形容詞,自立") | morph.pos.contains("形容動詞語幹")
+				morph.pos.contains("形容詞") | morph.pos.contains("形容詞,自立") | morph.pos.contains("形容動詞語幹")
 			} => "adjective"
 			case morphs if morphs.exists { morph =>
 				morph.cform.contains("特殊・ダ") | morph.cform.contains("特殊・デス") | morph.cform.contains("判定詞")
@@ -133,8 +133,9 @@ class Basic() {
 				}
 			case "adjective" =>
 				chunk.morphs.filter { morph =>
-					morph.pos.contains("形容詞,自立") | morph.pos.contains("形容動詞語幹")
+					morph.pos.contains("形容詞") | morph.pos.contains("形容詞,自立") | morph.pos.contains("形容動詞語幹")
 				}.head match {
+					case morph if morph.pos.contains("形容詞") => morph.base
 					case morph if morph.pos.contains("形容詞,自立") => morph.base
 					case morph if morph.pos.contains("形容動詞語幹") =>
 						chunk.morphs.find(_.id.equals(morph.id - 1)) match {
@@ -158,7 +159,7 @@ class Basic() {
 	private def getPart(chunk: Chunk): String = {
 
 		val part: String = chunk.morphs.filter { morph =>
-			morph.pos.contains("格助詞") | morph.pos.contains("係助詞") | morph.pos2.equals("連体化") | morph.pos.contains("助動詞")
+			morph.pos.contains("格助詞") | morph.pos.contains("係助詞") | morph.pos2.equals("連体化") | morph.pos.contains("助動詞") | morph.pos.contains("副助詞") | morph.pos.contains("判定詞")
 		}.lastOption match {
 			case Some(morph) => morph.base
 			case None => ""
