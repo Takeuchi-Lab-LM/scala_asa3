@@ -27,7 +27,7 @@ class Tagger(ccharts: cchart.Dict2, categorys: category.Dict) {
 	 * @param morphs 文節中の形態素の配列
 	 * @return カテゴリ
 	 */
-	private def parseCategory(linkchunk: Chunk): Array[String] = {
+	/*private def parseCategory(linkchunk: Chunk): Array[String] = {
 		var category: Array[String] = categorys.getCates(linkchunk.main)
 		linkchunk.morphs.foreach { morph =>
 			category = morph.pos match {
@@ -41,6 +41,27 @@ class Tagger(ccharts: cchart.Dict2, categorys: category.Dict) {
 						case "年" | "月" | "日" | "時" | "分" | "秒" => category :+ "時間"
 						case _ => category :+ "数値"
 					}*/
+				case "名詞,固有名詞,人名" | "名詞,接尾,人名" => category :+ "人"
+				case "名詞,固有名詞,地域" | "名詞,接尾,地域" => category :+ "場所"
+				case "名詞,固有名詞,組織" => category :+ "組織"
+				case _ => category
+			}
+		}
+		return category.distinct
+	}*/
+
+	private def parseCategory(linkchunk: Chunk): Array[String] = {
+		var category: Array[String] = categorys.getCates(linkchunk.main)
+		if (linkchunk.morphs.exists { morph => morph.pos == "名詞,接尾,助数詞" || morph.pos == "名詞,数" }) {
+			category = if (linkchunk.morphs.exists { morph => Set("年" , "月" , "日" , "時" , "分" , "秒").contains(morph.surface) }) {
+				category :+ "時間"
+			} else {
+				category :+ "数値"
+			}
+		}
+
+		linkchunk.morphs.foreach { morph =>
+			category = morph.pos match {
 				case "名詞,固有名詞,人名" | "名詞,接尾,人名" => category :+ "人"
 				case "名詞,固有名詞,地域" | "名詞,接尾,地域" => category :+ "場所"
 				case "名詞,固有名詞,組織" => category :+ "組織"
