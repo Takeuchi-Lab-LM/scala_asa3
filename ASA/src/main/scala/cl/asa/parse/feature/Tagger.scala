@@ -24,6 +24,7 @@ class Tagger(ccharts: cchart.Dict2, categorys: category.Dict) {
 	}
 	/**
 	 * 文節中に名詞カテゴリが付与できるものがあればカテゴリの種類を返す
+	 * 2018/7/24 修正 thanks to Sonobe-san
 	 * @param morphs 文節中の形態素の配列
 	 * @return カテゴリ
 	 */
@@ -49,7 +50,7 @@ class Tagger(ccharts: cchart.Dict2, categorys: category.Dict) {
 		}
 		return category.distinct
 	}*/
-
+	
 	private def parseCategory(linkchunk: Chunk): Array[String] = {
 		var category: Array[String] = categorys.getCates(linkchunk.main)
 		if (linkchunk.morphs.exists { morph => morph.pos == "名詞,接尾,助数詞" || morph.pos == "名詞,数" }) {
